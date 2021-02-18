@@ -51,3 +51,43 @@ SELECT b.bookIdx
   FROM dbo.booksTBL as b
  inner join cateTBL as c
 	on b.cateIdx = c.cateIdx
+
+-- 대여된 책의 정보 쿼리 조인
+SELECT r.rentalIdx
+     -- ,r.memeberIdx
+	  ,m.memberName
+    --  ,r.bookIdx
+	  ,b.bookName
+	  ,b.author
+      ,format(r.rentalDt, 'yyyy-MM-dd') as '대여일'
+	  ,format(r.returnDt, 'yyyy-MM-dd') as '반납일'
+	  ,dbo.ufn_getState(r.rentalState) as '대여상태'
+  FROM dbo.rentalTBL as r
+  inner join booksTBL as b
+	on b.bookIdx = r.bookIdx
+  inner join memberTBL as m
+	on r.memeberIdx = m.memberIdx
+
+-- 책을 안빌린 회원 조회
+SELECT r.rentalIdx
+     -- ,r.memeberIdx
+	  ,m.memberName
+    --  ,r.bookIdx
+	  ,b.bookName
+	  ,b.author
+      ,format(r.rentalDt, 'yyyy-MM-dd') as '대여일'
+	  ,dbo.ufn_getState(r.rentalState) as '대여상태'
+  FROM dbo.rentalTBL as r
+  left outer join booksTBL as b
+	on b.bookIdx = r.bookIdx
+  right outer join memberTBL as m
+	on r.memeberIdx = m.memberIdx
+ where r.rentalIdx is null;
+
+ --우리 책대여점에 없는 소설장르
+ select c.cateIdx
+		,c.cateName
+		,b.bookName
+	from cateTBL as c
+	left outer join booksTBL as b
+	 on c.cateIdx = b.cateIdx;

@@ -28,6 +28,18 @@ Sql 기본학습
 
 [PIVOT](https://github.com/vustkdgus/StudySqlServer/blob/main/07_Tsql_adv/210209_02_pivot_query.sql)
 
+[INNER JOIN](https://github.com/vustkdgus/StudySqlServer/blob/main/07_Tsql_adv/210209_03_inner_join_query.sql)
+
+[OUTERE JOIN](https://github.com/vustkdgus/StudySqlServer/blob/main/07_Tsql_adv/210209_05_outer_join_sample.sql)
+
+[CASE](https://github.com/vustkdgus/StudySqlServer/blob/main/07_Tsql_adv/210210_03_tsql_case.sql)
+
+[WHILE](https://github.com/vustkdgus/StudySqlServer/blob/main/07_Tsql_adv/210210_05_tsql_while.sql)
+
+[TRY CATCH](https://github.com/vustkdgus/StudySqlServer/blob/main/07_Tsql_adv/210210_06_try_catch.sql)
+
+[TRANSACTION](https://github.com/vustkdgus/StudySqlServer/blob/main/10_Transaction/210215_01_Transaction_query.sql)
+
 
 -------------------
 

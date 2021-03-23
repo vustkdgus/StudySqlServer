@@ -20,29 +20,21 @@ Sql 기본학습
 
 [DML](https://github.com/vustkdgus/StudySqlServer/blob/main/06_Tsql/21020804_SIDU_query.sql)
 
+-------------------
+
+## ADVANCED 문법
+
 [DELCARE](https://github.com/vustkdgus/StudySqlServer/blob/main/06_Tsql/21020805_DECLARE_query.sql)
 
 [PIVOT](https://github.com/vustkdgus/StudySqlServer/blob/main/07_Tsql_adv/210209_02_pivot_query.sql)
 
-
-
--------------------
-
-## Javascript
-
-Javascript 기본 학습 <br>
-
-[Javascript소스](https://github.com/vustkdgus/StudyHtml/tree/main/03_Javascript)
 
 -------------------
 
 ## Test
 전체 통합 프로젝트 <br>
 
-[Project소스](https://github.com/vustkdgus/StudyHtml/tree/main/04_project) <br>
 
 #### 반응형 웹 그리드 레이아웃 웹페이지 실습
-![결과1](https://github.com/vustkdgus/StudyHtml/blob/main/ref_images/result03.png "전체레이아웃")
-![결과2](https://github.com/vustkdgus/StudyHtml/blob/main/ref_images/result04.png "팝업레이아웃")
 
 -------------------

@@ -10,7 +10,6 @@ Sql 기본학습
 -------------------
 
 ## 기본문법
-기본 학습
 
 [SELECT](https://github.com/vustkdgus/StudySqlServer/blob/main/06_Tsql/21020803_select_query.sql)
 

@@ -43,11 +43,3 @@ Sql 기본학습
 [TRANSACTION](https://github.com/vustkdgus/StudySqlServer/blob/main/10_Transaction/210215_01_Transaction_query.sql)
 
 
--------------------
-
-## Test
-
-
-#### 반응형 웹 그리드 레이아웃 웹페이지 실습
-
--------------------
